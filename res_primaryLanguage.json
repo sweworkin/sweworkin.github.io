@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "My name is Pranav Uppiliappan, and I am a student at UCSB interested in Computer Science and Economics. I am looking for internship opportunities that best leverage my experience to gain new and critical skills in today's dynamic environment. Please scroll down to check out some of my projects and experiences. Also, click right below to check out recent tech articles (refreshed every day automatically)",
+      "description": "My name is Pranav Uppiliappan, and I am a student at UCSB interested in Computer Science and Economics. I am looking for internship opportunities that best leverage my experience to gain new and critical skills in today's dynamic environment. Please scroll down to check out some of my projects and experiences. Also, click right below to check out recent tech articles (refreshed every day automatically).",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -10,14 +10,39 @@
       }
     },
     "projects": [
-      
+      {
+        "title": "Resume",
+        "startDate": "2022",
+        "description":"Attached below is my resume"
+        ,
+        "images": [
+          "https://voicefoundry.com/wp-content/uploads/2018/09/feature-aws.jpg",
+          "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png"
+          
+        ],
+        "url": "https://elasticbeanstalk-us-east-1-876063799986.s3.us-east-1.amazonaws.com/PranavUppiliappanResume.pdf?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEC8aCXVzLWVhc3QtMiJIMEYCIQCY2omnbAFknM2uJaxlZ%2FdrumDG6cz9%2Fn%2FqVSCiXKxQAwIhALKk56aRT4eE7CGqfLeSdXopsVQFLtOkM%2BIshkHFBf1CKu0CCJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMODc2MDYzNzk5OTg2Igw4yp17%2BO1TANhiYWcqwQL49hC1Us1slUiI4HgqmEukLIA0DsA8mxkSansivcZb%2FE%2Bc%2F%2BLMhi0mc18LvpVVoLQfmqrx8xKB%2BrU2hElXcApdGaDUZy7edptPIp869eCEuwlIM28MV2TI%2BRvbP%2F7PdyMLVZ5N77gIttZoW8hB0AQmmpmppoZc7GGupZ3Yqoyycftaw4TXc2WSZkAveuLPnCAhZhdWYyVCs85O8HIrf3vqPywX3%2FUNgLE56XS3z%2FkGjkTqOsU0Bjdn%2FLGq3vOBIqWp65dOJtgIw%2F0bCWJa%2FjAJzxUqL0%2FTVkDX3vlHLaVFcJAJ7IXHZ3ngj2APgLkZoDiRO5%2BQWY3pPERvGGjxatgkKnVWdrOSnvv8sDb%2FJKGMXl%2Bg1AGehuODY0W8XL1LZp4ZgkwBOG7Z7KhtSgAg5qDgTf0pV0Q9fppsR58uJr%2FTOiUwrMCsngY6sgLy0IuKBIt%2ByYtxDIt9s%2Fou9yrm%2Fx6zwplQ5Ng%2FRkJMnrM%2BTTHl%2FmcnSQHrojIlzd1kqIT4jhZ4aUu410JDohq6EXVNX2NWhDXtxgAtRaLqAWiKAvpptQ%2FhFopApkT60V6hF3rxiNgxbKr9ErabY0AFyo6%2Bb6DufS7%2F4aVpxRylPuRQI47IpIxAeyNTriAY8WggRH%2FRT4Pj7K2QJWwuloj8IEytQnCx6N3AsZXFhrjoSCscwL8mB21%2FeYs7mDh4IXktZR%2Fb7OMRC8hXO0BDkzZGaM9uMg8CvOOaHe54hFgpMtnND%2FBxeTiioi1AbShhAnJLVB19mtaAHhoGcaNcI%2FwKF5TUMgt6J0rDh0Io%2FyF7mnYgEz%2FN2zPPWbjkhgdtvG7juv8n568UoM9CZZCdoIL%2FIis%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20230120T232216Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA4X6LYXKZHXMHE76J%2F20230120%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c791b19d5e5a91add5819b1f98948bab7ec778c808985f396cf76ffa23ed4038",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-spring-plain",
+            "name": "Spring"
+          },
+          {
+            "class": "devicon-amazonwebservices-plain",
+            "name": "AWS"
+          }
+        ]
+      },
       {
         "title": "Spring REST API for SP500 data",
         "startDate": "2021",
         "description":"This project was developed predominantly with Java, Python, and utlized the Spring Framework. The project was used by over 300 Reddit users in a popular finance subreddit. Using Java, I developed a REST API with the Spring framework. The REST API handles HTTP requests with pre-defined routes. URL errors and capitalization mishaps are handled through the framework, which returns JSON data to the user based on the requested parameters. I have always been fascinated by the Stock Market and the vast complexities in scaled businesses. Data visualization of these large-scale businesses can have an enormous impact on the ability to predict future business prospects. Although it does not encapsulate everything important in businesses, such as intangibles, this REST API (with data of Cash-flow Statement History, Symbol, Quarterly Balance Sheet History, Financials, Income Statement History, Quote Type, Quarterly Income Statement History, Quarterly Cash-flow Statement History, Summary Details, Earnings, Page Views, Price, Balance Sheet History), will meet many of your technical data requirements in the Stock Market. The data in the backend was collected through Python. The collection utilized BeautifulSoup, URLLib, and Requests to scrape web data and recursively crawl for information. Further packages were utilized to collect information from SEC forms. Furthermore, this project is hosted on AWS Elastic Beanstalk, which creates EC2 instances and uses a load balancer to handle requests and auto-scales. The data is stored in DynamoDb, which is a NoSQL database. This program does not currently Auto-Scale because it runs on the AWS Free Tier; however, once enabled, it scales extensively as EC2 instances are added."
         ,
         "images": [
-          "https://voicefoundry.com/wp-content/uploads/2018/09/feature-aws.jpg",
+          "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/269757833_4570037896366873_6631612107011390481_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iC4Se7ktfCwAX9yf-ur&tn=oN6OCbHXFYqDQAk_&_nc_ht=scontent-lax3-1.xx&oh=00_AfCkefOYLhJ6pqVzok-5XuyXgRookWpFMshYYdcFQVBDTQ&oe=63CF8E7F",
           "https://pbs.twimg.com/profile_images/1235868806079057921/fTL08u_H_400x400.png"
           
         ],
